@@ -64,6 +64,18 @@ body {
   border: 1px solid red;
 }
 
+.projects {
+  border: solid 1px red;
+}
+
+.project-container {
+  border: solid 1px red;
+}
+
+.project-card {
+  border: solid 1px red;
+}
+
 @media screen and (max-width: 812px) {
   .navbar {
     flex-direction: column;
