@@ -19,3 +19,12 @@ body {
   position: absolute;
   margin: 0px;
 }
+
+.navbar {
+  border: 1px solid red;
+  display: flex;
+}
+
+.navbar-links {
+  border: solid red;
+}
