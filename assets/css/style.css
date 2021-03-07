@@ -4,6 +4,7 @@ body {
 
 .header {
   border: 1px solid red;
+  position: relative;
 }
 
 .hero {
@@ -12,4 +13,9 @@ body {
   background-size: cover;
   background-position: center;
   border: 1px solid red;
+}
+
+.header-title {
+  position: absolute;
+  margin: 0px;
 }
