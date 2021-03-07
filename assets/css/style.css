@@ -30,8 +30,28 @@ body {
 }
 
 .navbar-links {
-  border: solid red;
+  border: 1px solid red;
   flex-grow: 3;
+}
+
+.aboutme {
+  border: 1px solid red;
+}
+
+.aboutme-title {
+  border: 1px solid red;
+}
+
+.aboutme-info {
+  border: 1px solid red;
+}
+
+.aboutme-image {
+  border: 1px solid red;
+}
+
+.aboutme-contact {
+  border: 1px solid red;
 }
 
 @media screen and (max-width: 812px) {
