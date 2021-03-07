@@ -26,6 +26,7 @@ body {
 .navbar {
   border: 1px solid red;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
@@ -42,11 +43,20 @@ body {
   border: 1px solid red;
 }
 
+.aboutme-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border: red 1px solid;
+}
+
 .aboutme-info {
+  flex-grow: 2;
   border: 1px solid red;
 }
 
 .aboutme-image {
+  flex-grow: 2;
   border: 1px solid red;
 }
 
@@ -56,6 +66,10 @@ body {
 
 @media screen and (max-width: 812px) {
   .navbar {
+    flex-direction: column;
+  }
+
+  .aboutme-flex {
     flex-direction: column;
   }
 }
