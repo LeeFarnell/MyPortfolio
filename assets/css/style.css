@@ -69,10 +69,20 @@ body {
 }
 
 .project-container {
+  display: flex;
+  flex-wrap: wrap;
+  border: solid 1px red;
+}
+
+.project-card-1 {
+  width: 50vw;
   border: solid 1px red;
 }
 
 .project-card {
+  justify-content: space-evenly;
+  align-content: center;
+  flex-grow: 2;
   border: solid 1px red;
 }
 
@@ -83,5 +93,9 @@ body {
 
   .aboutme-flex {
     flex-direction: column;
+  }
+
+  .project-card-1 {
+    width: 100vw;
   }
 }
