@@ -42,6 +42,7 @@ body {
 
 .navbar-links {
   background-color: var(--accent);
+  font-family: "Montserrat", sans-serif;
   color: white;
   text-shadow: 2px 2px 2px black;
   padding: 1rem;
@@ -49,6 +50,16 @@ body {
   font-size: 2rem;
   text-align: center;
   flex-grow: 3;
+}
+
+a {
+  text-decoration: 0;
+  color: white;
+}
+
+a:hover {
+  color: var(--main);
+  text-transform: uppercase;
 }
 
 .aboutme {
