@@ -1,3 +1,8 @@
+:root {
+  --main: black;
+  --accent: white;
+}
+
 body {
   margin: 0px;
 }
@@ -98,10 +103,16 @@ body {
   }
 
   .aboutme-flex {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .project-card-1 {
     width: 100vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .project-container {
+    flex-direction: column;
   }
 }
