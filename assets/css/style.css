@@ -82,7 +82,7 @@ body {
 .project-card-1 {
   width: 40vw;
   padding: 1rem;
-  border: solid 1px red;
+  border: solid 1px blue;
 }
 
 .project-card-1 img {
@@ -113,11 +113,7 @@ body {
   }
 
   .project-card-1 {
-    width: 100vw;
-  }
-
-  .project-card-1 img {
-    width: 90vw;
+    width: 95vw;
   }
 
   .project-card div {
@@ -126,5 +122,11 @@ body {
 
   .project-card div img {
     width: 35vw;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .project-card-1 {
+    width: 100vw;
   }
 }
