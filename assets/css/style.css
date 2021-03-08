@@ -1,6 +1,6 @@
 :root {
-  --main: #ea8da3;
-  --accent: #8dead3;
+  --main: #f987a2;
+  --accent: #68ecd2;
 }
 
 body {
@@ -14,7 +14,7 @@ body {
 }
 
 .hero {
-  background-image: url("../images/header-image1.jpg");
+  background-image: url("../images/HeaderImage.png");
   height: 200px;
   background-size: cover;
   background-position: center;
