@@ -1,23 +1,22 @@
 :root {
-  --main: black;
-  --accent: white;
+  --main: #ea8da3;
+  --accent: #8dead3;
 }
 
 body {
+  background-color: var(--main);
   margin: 0px;
 }
 
 .header {
-  border: 1px solid red;
   position: relative;
 }
 
 .hero {
-  background-image: url("../images/header-image.jpg");
+  background-image: url("../images/header-image1.jpg");
   height: 200px;
   background-size: cover;
   background-position: center;
-  border: 1px solid red;
 }
 
 .header-title {
