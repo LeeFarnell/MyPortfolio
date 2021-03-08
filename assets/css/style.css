@@ -27,6 +27,7 @@ body {
   text-shadow: 2px 2px 2px black;
   text-align: center;
   width: 100vw;
+  font-size: 4rem;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -109,8 +110,9 @@ body {
 }
 
 @media screen and (max-width: 812px) {
-  h1 {
+  .header-title {
     width: 100vw;
+    font-size: 3rem;
   }
 
   .navbar {
@@ -137,5 +139,10 @@ body {
 @media screen and (max-width: 400px) {
   .project-card-1 {
     width: 100vw;
+  }
+
+  .header-title {
+    width: 100vw;
+    font-size: 2rem;
   }
 }
