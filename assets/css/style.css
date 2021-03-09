@@ -115,6 +115,11 @@ h2 {
   margin-top: 0px;
 }
 
+.aboutme-contact img {
+  width: 100px;
+  padding: 1rem;
+}
+
 .projects {
   border: solid 1px red;
 }
