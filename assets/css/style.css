@@ -84,7 +84,6 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  border: red 1px solid;
 }
 
 .aboutme-info {
@@ -108,7 +107,12 @@ h2 {
 }
 
 .aboutme-contact {
-  border: 1px solid red;
+  color: white;
+}
+
+.aboutme-contact p {
+  padding: 1rem;
+  margin-top: 0px;
 }
 
 .projects {
