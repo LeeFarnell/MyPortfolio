@@ -66,9 +66,12 @@ a:hover {
 h2 {
   font-family: "Montserrat", sans-serif;
   color: white;
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
   text-shadow: 1px 1px 1px black;
   padding: 1rem;
   margin-top: 0pt;
+  margin-bottom: 0pt;
 }
 
 .aboutme {
@@ -150,6 +153,7 @@ h2 {
 
   .navbar {
     flex-direction: column;
+    width: 100vw;
   }
 
   .aboutme-flex {
@@ -179,11 +183,19 @@ h2 {
 
 @media screen and (max-width: 400px) {
   .project-card-1 {
-    width: 100vw;
+    width: 95vw;
   }
 
   .header-title {
-    width: 100vw;
+    width: 95vw;
     font-size: 2rem;
+  }
+
+  .aboutme-image img {
+    width: 90vw;
+  }
+
+  .aboutme-info {
+    width: 85vw;
   }
 }
