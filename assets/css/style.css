@@ -84,8 +84,10 @@ h2 {
 }
 
 .aboutme-info {
+  width: 40vw;
+  color: white;
+  padding: 1rem;
   flex-grow: 2;
-  border: 1px solid red;
 }
 
 .aboutme-image {
@@ -151,6 +153,14 @@ h2 {
 
   .aboutme-flex {
     flex-direction: column-reverse;
+  }
+
+  .aboutme-info {
+    width: 90vw;
+  }
+
+  .aboutme-image img {
+    width: 95vw;
   }
 
   .project-card-1 {
