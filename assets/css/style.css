@@ -126,12 +126,14 @@ h2 {
 
 .project-card-1 {
   width: 40vw;
-  padding: 1rem;
+  padding: 2rem;
+  text-align: center;
 }
 
 h3 {
   font-family: "Montserrat", sans-serif;
   color: white;
+  text-align: center;
   text-decoration: underline;
   text-decoration-color: var(--accent);
   text-shadow: 1px 0px 1px black;
@@ -156,9 +158,10 @@ h3 {
 .project-card {
   width: 20vw;
   justify-content: space-evenly;
+  text-align: center;
   align-content: center;
   flex-grow: 2;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .project-card div img {
