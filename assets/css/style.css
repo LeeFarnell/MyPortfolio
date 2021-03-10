@@ -150,6 +150,12 @@ h3 {
   filter: grayscale(0);
 }
 
+.project-card-1 a:hover {
+  display: inline;
+  color: var(--accent);
+  text-shadow: 1px 0px 1px black;
+}
+
 .project-card {
   width: 20vw;
   justify-content: space-evenly;
