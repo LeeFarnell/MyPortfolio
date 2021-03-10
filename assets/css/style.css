@@ -141,8 +141,13 @@ h3 {
   margin: 0px;
 }
 
-.project-card-1 img {
+.project1image {
   width: 100%;
+  filter: grayscale(1);
+}
+
+.project1image:hover {
+  filter: grayscale(0);
 }
 
 .project-card {
