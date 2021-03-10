@@ -117,19 +117,16 @@ h2 {
 }
 
 .projects {
-  border: solid 1px red;
 }
 
 .project-container {
   display: flex;
   flex-wrap: wrap;
-  border: solid 1px red;
 }
 
 .project-card-1 {
   width: 40vw;
   padding: 1rem;
-  border: solid 1px blue;
 }
 
 h3 {
@@ -161,13 +158,22 @@ h3 {
   justify-content: space-evenly;
   align-content: center;
   flex-grow: 2;
-  background-color: royalblue;
   padding: 1rem;
-  border: solid 1px red;
 }
 
 .project-card div img {
   width: 100%;
+  filter: grayscale(1);
+}
+
+.project-card div img:hover {
+  filter: grayscale(0);
+}
+
+.project-card a:hover {
+  display: inline;
+  color: var(--accent);
+  text-shadow: 1px 0px 1px black;
 }
 
 @media screen and (max-width: 812px) {
