@@ -170,6 +170,12 @@ h3 {
   color: var(--accent);
   text-shadow: 1px 0px 1px black;
 }
+
+footer h2 {
+  text-align: center;
+  text-decoration: none;
+}
+
 /* Media Queries */
 @media screen and (max-width: 812px) {
   .header__title {
