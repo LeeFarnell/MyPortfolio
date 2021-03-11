@@ -21,7 +21,7 @@ body {
   background-position: center;
 }
 
-.header-title {
+.header__title {
   position: absolute;
   font-family: "Montserrat", sans-serif;
   color: white;
@@ -41,7 +41,7 @@ body {
   justify-content: space-evenly;
 }
 
-.navbar-links {
+.navbar__links {
   background-color: var(--accent);
   font-family: "Montserrat", sans-serif;
   color: white;
@@ -75,25 +75,25 @@ h2 {
   margin-bottom: 0pt;
 }
 
-.aboutme-flex {
+.aboutme__flex {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
-.aboutme-info {
+.aboutme__info {
   width: 40vw;
   padding: 1rem;
   flex-grow: 2;
   margin-top: -1rem;
 }
 
-.aboutme-image {
+.aboutme__image {
   align-content: center;
   flex-grow: 2;
 }
 
-.aboutme-image img {
+.aboutme__image img {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -101,22 +101,22 @@ h2 {
   align-content: center;
 }
 
-.aboutme-contact p {
+.aboutme__contact p {
   padding: 1rem;
   margin-top: 0px;
 }
 
-.aboutme-contact img {
+.aboutme__contact img {
   width: 100px;
   padding: 1rem;
 }
 
-.project-container {
+.projects__container {
   display: flex;
   flex-wrap: wrap;
 }
 
-.project-card-1 {
+.projects__card1 {
   width: 40vw;
   padding: 1rem;
   text-align: center;
@@ -141,13 +141,13 @@ h3 {
   filter: grayscale(0);
 }
 
-.project-card-1 a:hover {
+.projects__card1 a:hover {
   display: inline;
   color: var(--accent);
   text-shadow: 1px 0px 1px black;
 }
 
-.project-card {
+.projects__cards {
   width: 20vw;
   justify-content: space-evenly;
   text-align: center;
@@ -156,23 +156,23 @@ h3 {
   padding: 1rem;
 }
 
-.project-card div img {
+.projects__cards div img {
   width: 100%;
   filter: grayscale(1);
 }
 
-.project-card div img:hover {
+.projects__cards div img:hover {
   filter: grayscale(0);
 }
 
-.project-card a:hover {
+.projects__cards a:hover {
   display: inline;
   color: var(--accent);
   text-shadow: 1px 0px 1px black;
 }
 
 @media screen and (max-width: 812px) {
-  .header-title {
+  .header__title {
     width: 100vw;
     font-size: 3rem;
   }
@@ -182,46 +182,46 @@ h3 {
     width: 100vw;
   }
 
-  .aboutme-flex {
+  .aboutme__flex {
     flex-direction: column-reverse;
   }
 
-  .aboutme-info {
+  .aboutme__info {
     width: 90vw;
   }
 
-  .aboutme-image img {
+  .aboutme__image img {
     width: 95vw;
   }
 
-  .project-card-1 {
+  .projects__card1 {
     width: 95vw;
   }
 
-  .project-card div {
+  .projects__cards div {
     width: 40vw;
   }
 
-  .project-card div img {
+  .projects__cards div img {
     width: 35vw;
   }
 }
 
 @media screen and (max-width: 400px) {
-  .project-card-1 {
+  .projects__card1 {
     width: 95vw;
   }
 
-  .header-title {
+  .header__title {
     width: 95vw;
     font-size: 2rem;
   }
 
-  .aboutme-image img {
+  .aboutme__image img {
     width: 90vw;
   }
 
-  .aboutme-info {
+  .aboutme__info {
     width: 85vw;
   }
 }
