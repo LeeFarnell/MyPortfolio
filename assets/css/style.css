@@ -9,7 +9,7 @@ body {
   color: white;
   margin: 0px;
 }
-
+/* Header and BG Image */
 .header {
   position: relative;
 }
@@ -34,7 +34,7 @@ body {
   transform: translate(-50%, -50%);
   margin: 0px;
 }
-
+/* Nav Bar stylings */
 .navbar {
   display: flex;
   flex-wrap: wrap;
@@ -63,7 +63,7 @@ a:hover {
   color: var(--main);
   text-transform: uppercase;
 }
-
+/* About Me stylings */
 h2 {
   font-family: "Montserrat", sans-serif;
   color: white;
@@ -110,7 +110,7 @@ h2 {
   width: 100px;
   padding: 1rem;
 }
-
+/* Projects Stylings */
 .projects__container {
   display: flex;
   flex-wrap: wrap;
@@ -170,7 +170,7 @@ h3 {
   color: var(--accent);
   text-shadow: 1px 0px 1px black;
 }
-
+/* Media Queries */
 @media screen and (max-width: 812px) {
   .header__title {
     width: 100vw;
