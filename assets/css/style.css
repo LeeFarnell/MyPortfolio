@@ -170,7 +170,7 @@ h3 {
   color: var(--accent);
   text-shadow: 1px 0px 1px black;
 }
-
+/* Footer Styling */
 footer h2 {
   text-align: center;
   text-decoration: none;
@@ -214,20 +214,20 @@ footer h2 {
 }
 
 @media screen and (max-width: 400px) {
-  .projects__card1 {
-    width: 95vw;
-  }
-
   .header__title {
     width: 95vw;
     font-size: 2rem;
+  }
+
+  .aboutme__info {
+    width: 85vw;
   }
 
   .aboutme__image img {
     width: 90vw;
   }
 
-  .aboutme__info {
-    width: 85vw;
+  .projects__card1 {
+    width: 95vw;
   }
 }
