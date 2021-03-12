@@ -12,6 +12,8 @@ In order to meet the necessary criteria from the user story, I had to ensure my 
 - Ensuring my webpage is responsive to various screen sizes e.g. mobile phones, tablets.
 - Ensuring my code follows best practices when it comes to naming conventions and file structures.
 
+This portfolio is a work in progress, so there is more to come as the course continues.
+
 ## Link to deployed application
 
 https://leefarnell.github.io/hw2_MyPortfolio/
