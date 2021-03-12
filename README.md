@@ -16,4 +16,19 @@ In order to meet the necessary criteria from the user story, I had to ensure my 
 
 https://leefarnell.github.io/hw2_MyPortfolio/
 
-## Screenshots
+## Screenshots
+
+![ScreenShot1](assets/ReadMeScreenshots/MyPortfolio1.png)
+![ScreenShot1](assets/ReadMeScreenshots/MyPortfolio2.png)
+![ScreenShot1](assets/ReadMeScreenshots/MyPortfolio3.png)
+![ScreenShot1](assets/ReadMeScreenshots/MyPortfolio4.png)
+![ScreenShot1](assets/ReadMeScreenshots/MyPortfolio5.png)
+![ScreenShot1](assets/ReadMeScreenshots/MyPortfolio6.png)
+![ScreenShot1](assets/ReadMeScreenshots/MyPortfolio7.png)
+![ScreenShot1](assets/ReadMeScreenshots/MyPortfolio8.png)
+![ScreenShot1](assets/ReadMeScreenshots/MyPortfolio9.png)
+![ScreenShot1](assets/ReadMeScreenshots/MyPortfolio10.png)
+![ScreenShot1](assets/ReadMeScreenshots/MyPortfolio11.png)
+![ScreenShot1](assets/ReadMeScreenshots/MyPortfolio12.png)
+![ScreenShot1](assets/ReadMeScreenshots/MyPortfolio13.png)
+![ScreenShot1](assets/ReadMeScreenshots/MyPortfolio14.png)
