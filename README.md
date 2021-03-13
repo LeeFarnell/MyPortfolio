@@ -16,7 +16,7 @@ This portfolio is a work in progress, so there is more to come as the course con
 
 ## Link to deployed application
 
-https://leefarnell.github.io/hw2_MyPortfolio/
+https://leefarnell.github.io/MyPortfolio/
 
 ## Screenshots
 
