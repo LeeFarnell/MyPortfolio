@@ -141,7 +141,7 @@ h3 {
   filter: grayscale(0);
 }
 
-p a {
+.p__link {
   font-weight: bolder;
   text-decoration: underline;
 }
