@@ -141,6 +141,11 @@ h3 {
   filter: grayscale(0);
 }
 
+p a {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
 .projects__card1 a:hover {
   display: inline;
   color: var(--accent);
